@@ -1,4 +1,6 @@
-import { forEachModule, forEachPractice } from './functions/forEachModule'
+import { forEachFile, mapFile } from './functions/index.js'
+const { forEachModule, forEachPractice } = forEachFile
+const { mapModule, mapPractice } = mapFile
 // * Arrays functions
 
 // ! Callback functions
