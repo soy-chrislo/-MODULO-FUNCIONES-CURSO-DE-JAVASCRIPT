@@ -1,7 +1,8 @@
 # Módulo de Funciones de Arreglos en JavaScript 🚀
 
 Este repositorio contiene el código del módulo de FUNCIONES DE ARREGLOS del CURSO DE JAVASCRIPT donde se habla sobre las funciones de los arreglos en JavaScript.
-👉 [https://www.youtube.com/playlist?list=PLpQZl5TrCVZMxQWcwwf8V0OwCg2Xs1tDo](CURSO DE JAVASCRIPT - CHRISLO)
+
+https://www.youtube.com/playlist?list=PLpQZl5TrCVZMxQWcwwf8V0OwCg2Xs1tDo - CURSO DE JAVASCRIPT - CHRISLO
 
 ## Contenido 📚
 
