@@ -38,6 +38,10 @@ function forEachModule() {
     //   }, { value: 'valor cualquiera', saludar: () => { console.log('saludando') } })
 }
 exports.forEachModule = forEachModule;
+// for (const element of elements){
+// }
+// for (int i = 0; i < array.length; i++) {
+// }
 function forEachPractice() {
     var _this = this;
     var array = [1, 2, 3, 4, 5, 6, 7, 8, 9];

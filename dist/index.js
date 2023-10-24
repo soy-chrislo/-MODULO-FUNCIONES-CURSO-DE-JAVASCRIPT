@@ -1,12 +1,16 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-var forEachModule_1 = require("./functions/forEachModule");
+var index_js_1 = require("./functions/index.js");
+var forEachModule = index_js_1.forEachFile.forEachModule, forEachPractice = index_js_1.forEachFile.forEachPractice;
+var mapModule = index_js_1.mapFile.mapModule, mapPractice = index_js_1.mapFile.mapPractice;
 // * Arrays functions
 // ! Callback functions
 // * forEach
 // forEachModule()
-(0, forEachModule_1.forEachPractice)();
+// forEachPractice()
 // * map
+mapModule();
+mapPractice();
 // * filter
 // * find
 // * findIndex

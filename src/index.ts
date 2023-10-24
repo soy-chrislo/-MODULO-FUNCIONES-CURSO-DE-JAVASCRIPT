@@ -8,6 +8,8 @@ const { mapModule, mapPractice } = mapFile
 // forEachModule()
 // forEachPractice()
 // * map
+// mapModule()
+mapPractice()
 // * filter
 // * find
 // * findIndex
