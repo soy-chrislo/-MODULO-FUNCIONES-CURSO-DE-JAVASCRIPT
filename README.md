@@ -9,7 +9,7 @@ https://www.youtube.com/playlist?list=PLpQZl5TrCVZMxQWcwwf8V0OwCg2Xs1tDo - CURSO
 El curso cubre las siguientes funciones de los arreglos en JavaScript:
 
 1. `forEach()` ✅
-2. `map()`
+2. `map()` ✅
 3. `filter()`
 4. `find()`
 5. `findIndex()`
