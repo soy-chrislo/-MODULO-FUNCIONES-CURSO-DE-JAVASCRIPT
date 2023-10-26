@@ -10,7 +10,7 @@ El curso cubre las siguientes funciones de los arreglos en JavaScript:
 
 1. `forEach()` ✅
 2. `map()` ✅
-3. `filter()`
+3. `filter()` ✅
 4. `find()`
 5. `findIndex()`
 6. `some()`

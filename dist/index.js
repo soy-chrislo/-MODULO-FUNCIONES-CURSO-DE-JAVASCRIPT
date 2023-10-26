@@ -3,15 +3,18 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var index_js_1 = require("./functions/index.js");
 var forEachModule = index_js_1.forEachFile.forEachModule, forEachPractice = index_js_1.forEachFile.forEachPractice;
 var mapModule = index_js_1.mapFile.mapModule, mapPractice = index_js_1.mapFile.mapPractice;
+var filterModule = index_js_1.filterFile.filterModule, filterPractice = index_js_1.filterFile.filterPractice;
 // * Arrays functions
 // ! Callback functions
 // * forEach
 // forEachModule()
 // forEachPractice()
 // * map
-mapModule();
-mapPractice();
+// mapModule()
+// mapPractice()
 // * filter
+// filterModule()
+filterPractice();
 // * find
 // * findIndex
 // * some
