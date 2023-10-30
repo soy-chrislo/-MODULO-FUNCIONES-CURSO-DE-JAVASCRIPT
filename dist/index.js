@@ -4,6 +4,7 @@ var index_js_1 = require("./functions/index.js");
 var forEachModule = index_js_1.forEachFile.forEachModule, forEachPractice = index_js_1.forEachFile.forEachPractice;
 var mapModule = index_js_1.mapFile.mapModule, mapPractice = index_js_1.mapFile.mapPractice;
 var filterModule = index_js_1.filterFile.filterModule, filterPractice = index_js_1.filterFile.filterPractice;
+var findModule = index_js_1.findFile.findModule, findPractice = index_js_1.findFile.findPractice;
 // * Arrays functions
 // ! Callback functions
 // * forEach
@@ -14,8 +15,10 @@ var filterModule = index_js_1.filterFile.filterModule, filterPractice = index_js
 // mapPractice()
 // * filter
 // filterModule()
-filterPractice();
+// filterPractice()
 // * find
+findModule();
+findPractice();
 // * findIndex
 // * some
 // * every
