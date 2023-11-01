@@ -6,6 +6,7 @@ var mapModule = index_js_1.mapFile.mapModule, mapPractice = index_js_1.mapFile.m
 var filterModule = index_js_1.filterFile.filterModule, filterPractice = index_js_1.filterFile.filterPractice;
 var findModule = index_js_1.findFile.findModule, findPractice = index_js_1.findFile.findPractice;
 var someModule = index_js_1.someFile.someModule, somePractice = index_js_1.someFile.somePractice;
+var everyModule = index_js_1.everyFile.everyModule, everyPractice = index_js_1.everyFile.everyPractice;
 // * Arrays functions
 // ! Callback functions
 // * forEach
@@ -22,8 +23,10 @@ var someModule = index_js_1.someFile.someModule, somePractice = index_js_1.someF
 // findPractice()
 // * some
 // someModule()
-somePractice();
+// somePractice()
 // * every
+// everyModule()
+everyPractice();
 // * sort
 // * flatMap
 // * reduce

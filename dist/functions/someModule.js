@@ -16,7 +16,7 @@ function someModule() {
     /*
     * element: El elemento actual que se está procesando en el array.
     * index: El índice del elemento actual que se está procesando en el array.
-    * array: El array sobre el que se llama filter().
+    * array: El array sobre el que se llama some().
   
     * thisArg: Opcional. Valor para usar como this cuando se ejecute callback.
   
