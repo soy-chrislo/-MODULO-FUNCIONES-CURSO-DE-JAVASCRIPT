@@ -25,7 +25,7 @@ function findModule() {
     * Soporta contexto siempre y cuando se le pase un thisArg, y se asigne "use strict".
     */
     var array = [1, 2, 3, 4, 5];
-    var result = array.findIndex(function (currentValue) { return currentValue > 3; });
+    var result = array.find(function (currentValue) { return currentValue > 3; });
     console.log(result);
 }
 exports.findModule = findModule;

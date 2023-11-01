@@ -1,8 +1,9 @@
-import { forEachFile, mapFile, filterFile, findFile } from './functions/index.js'
+import { forEachFile, mapFile, filterFile, findFile, someFile } from './functions/index.js'
 const { forEachModule, forEachPractice } = forEachFile
 const { mapModule, mapPractice } = mapFile
 const { filterModule, filterPractice } = filterFile
 const { findModule, findPractice } = findFile
+const { someModule, somePractice } = someFile
 
 // * Arrays functions
 
@@ -16,11 +17,12 @@ const { findModule, findPractice } = findFile
 // * filter
 // filterModule()
 // filterPractice()
-// * find
-findModule()
-findPractice()
-// * findIndex
+// * find & findIndex
+// findModule()
+// findPractice()
 // * some
+// someModule()
+somePractice()
 // * every
 // * sort
 // * flatMap
