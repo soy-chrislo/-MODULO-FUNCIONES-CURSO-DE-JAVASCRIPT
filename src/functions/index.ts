@@ -4,6 +4,7 @@ import * as filterFile from './filterModule'
 import * as findFile from './findModule'
 import * as someFile from './someModule'
 import * as everyFile from './everyModule'
+import * as sortFile from './sortModule'
 
 export {
   forEachFile,
@@ -11,5 +12,6 @@ export {
   filterFile,
   findFile,
   someFile,
-  everyFile
+  everyFile,
+  sortFile
 }

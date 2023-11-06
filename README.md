@@ -15,7 +15,7 @@ El curso cubre las siguientes funciones de los arreglos en JavaScript:
 5. `findIndex()` ✅
 6. `some()` ✅
 7. `every()` ✅
-8. `sort()`
+8. `sort()` ✅
 9. `flatMap()`
 10. `reduce()`
 11. `reduceRight()`
