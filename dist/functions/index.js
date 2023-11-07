@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.sortFile = exports.everyFile = exports.someFile = exports.findFile = exports.filterFile = exports.mapFile = exports.forEachFile = void 0;
+exports.reduceFile = exports.flatMapFile = exports.sortFile = exports.everyFile = exports.someFile = exports.findFile = exports.filterFile = exports.mapFile = exports.forEachFile = void 0;
 var tslib_1 = require("tslib");
 var forEachFile = tslib_1.__importStar(require("./forEachModule"));
 exports.forEachFile = forEachFile;
@@ -16,3 +16,7 @@ var everyFile = tslib_1.__importStar(require("./everyModule"));
 exports.everyFile = everyFile;
 var sortFile = tslib_1.__importStar(require("./sortModule"));
 exports.sortFile = sortFile;
+var flatMapFile = tslib_1.__importStar(require("./flatMapModule"));
+exports.flatMapFile = flatMapFile;
+var reduceFile = tslib_1.__importStar(require("./reduceModule"));
+exports.reduceFile = reduceFile;

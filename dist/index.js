@@ -8,6 +8,8 @@ var findModule = index_js_1.findFile.findModule, findPractice = index_js_1.findF
 var someModule = index_js_1.someFile.someModule, somePractice = index_js_1.someFile.somePractice;
 var everyModule = index_js_1.everyFile.everyModule, everyPractice = index_js_1.everyFile.everyPractice;
 var sortModule = index_js_1.sortFile.sortModule, sortPractice = index_js_1.sortFile.sortPractice;
+var flatMapModule = index_js_1.flatMapFile.flatMapModule, flatMapPractice = index_js_1.flatMapFile.flatMapPractice;
+var reduceModule = index_js_1.reduceFile.reduceModule, reducePractice = index_js_1.reduceFile.reducePractice;
 // * Arrays functions
 // ! Callback functions
 // * forEach
@@ -29,10 +31,14 @@ var sortModule = index_js_1.sortFile.sortModule, sortPractice = index_js_1.sortF
 // everyModule()
 // everyPractice()
 // * sort
-sortModule();
-sortPractice();
+// sortModule()
+// sortPractice()
 // * flatMap
+// flatMapModule()
+// flatMapPractice()
 // * reduce
+// reduceModule()
+reducePractice();
 // * reduceRight
 // ! Non-callback functions
 // * at

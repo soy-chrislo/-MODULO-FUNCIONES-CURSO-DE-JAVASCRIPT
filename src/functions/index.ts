@@ -5,6 +5,8 @@ import * as findFile from './findModule'
 import * as someFile from './someModule'
 import * as everyFile from './everyModule'
 import * as sortFile from './sortModule'
+import * as flatMapFile from './flatMapModule'
+import * as reduceFile from './reduceModule'
 
 export {
   forEachFile,
@@ -13,5 +15,7 @@ export {
   findFile,
   someFile,
   everyFile,
-  sortFile
+  sortFile,
+  flatMapFile,
+  reduceFile
 }
