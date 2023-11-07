@@ -12,10 +12,11 @@ Para obtener una comprensión más profunda, nos apoyaremos en la página [opera
 Este módulo categorizará a los operadores en base a su naturaleza y a la manera en que están agrupados. A modo de ejemplo, podemos mencionar el operador de la *coma* (`,`), el cual es un operador independiente, mientras que los operadores de *mayor*, *menor*, *igual que* y otros (`>`, `<`, `>=`, `<=`, `!=`, `==`, `===`) son operadores de **comparación** y comparten una naturaleza similar.
 
 **Operadores individuales**
-- Asignación: `=`.
-- Property Accessor: `.`.
-- Flecha: `=>`.
-- Coma: `,`.
+- Asignación: `=`. ✅
+- Property Accessor: `.`. ✅
+- Flecha: `=>`. ✅
+- Coma: `,`. ✅
+- Grouping operator: `()` ✅
 - Incremento: `++` y Decremento: `--`.
 - Ternario: `?`.
 - Nullish Coalesing: `??`, `??=`.
