@@ -42,6 +42,6 @@ export default function grouping() {
  console.log(retornarExpLiteral())
 
 //  1.toString() --> SyntaxError: Invalid or unexpected token
-(1).toString()
+;(1).toString()
 if (typeof (1).toString() === "string") console.log('1 es un string')
 }
