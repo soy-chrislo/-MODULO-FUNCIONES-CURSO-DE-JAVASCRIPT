@@ -1,6 +1,6 @@
-# Curso de Javascript 🚀
+# Módulo de Asincronismo 🚀
 
-Bienvenidos al repositorio oficial de mi curso de Javascript. Aquí podrás encontrar todo el contenido y código relacionado que ha sido explicado en mi curso de YouTube.
+¡Bienvenidos al módulo dedicado al asincronismo en JavaScript! En esta unidad, exploraremos en detalle tanto la forma tradicional de ejecutar funciones asincrónicas por medio de `callbacks` como la alternativa moderna por medio de `promesas`
 
 [CURSO DE JAVASCRIPT - CHRISLO](https://www.youtube.com/playlist?list=PLpQZl5TrCVZMxQWcwwf8V0OwCg2Xs1tDo)
 
@@ -8,10 +8,11 @@ Bienvenidos al repositorio oficial de mi curso de Javascript. Aquí podrás enco
 
 El curso aborda los temas como módulos, de los cuales se encuentran:
 
-1. MÓDULO DE IMPORTACIÓN DINÁMICA ✅
-2. MÓDULO DE ARRAY FUNCTIONS ✅
-
-Cada módulo se encuentra en una rama por separado en este mismo repositorio, de este modo, tendrás que cambiar entre ramas para ingresar al código de cada uno de los módulos.
+1. CÓMO FUNCIONA EL SINCRONISMO Y EL ASINCRONISMO ✅
+2. CÓMO CREAR FUNCIONES ASÍNCRONAS CON CALLBACKS (FORMA TRADICIONAL) ✅
+4. CÓMO CREAR FUNCIONES ASÍNCRONAS CON PROMESAS (FORMA MODERNA) ✅
+5. CÓMO LLAMAR UNA PROMESA Y MANIPULARLA CON `then()` y `catch()` así como con `async` y `await()`.
+   1. Incluyendo sus diferencias.
 
 ## Cómo usar este repositorio 🤔
 
