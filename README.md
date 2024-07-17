@@ -17,10 +17,10 @@ Este módulo categorizará a los operadores en base a su naturaleza y a la maner
 - Flecha: `=>`. ✅
 - Coma: `,`. ✅
 - Grouping operator: `()` ✅
-- Incremento: `++` y Decremento: `--`.
-- Ternario: `?`.
-- Nullish Coalesing: `??`, `??=`.
-- Optional Chaining: `?.`.
+- Incremento: `++` y Decremento: `--`. ✅
+- Ternario: `?`. ✅
+- Nullish Coalesing: `??`, `??=`. ✅
+- Optional Chaining: `?.`. ✅
 - Rest/Spread: `...`.
 
 **Operadores agrupados**
