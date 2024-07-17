@@ -21,7 +21,7 @@ Este módulo categorizará a los operadores en base a su naturaleza y a la maner
 - Ternario: `?`. ✅
 - Nullish Coalesing: `??`, `??=`. ✅
 - Optional Chaining: `?.`. ✅
-- Rest/Spread: `...`.
+- Rest/Spread: `...`. ✅
 
 **Operadores agrupados**
 - Aritméticos: `+`, `+=`, `-`, `-=`, `*`, `*=`, `/`, `/=`, `**`, `**=`, `%`, `%=`.

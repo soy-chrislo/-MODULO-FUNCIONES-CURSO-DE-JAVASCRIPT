@@ -1,5 +1,6 @@
 import barrel from "./barrel.js";
 import { optionalChaining } from "./individuals/09_optional_chaining.js";
+import { restSpread } from "./individuals/10_rest_spread.js";
 
 const {
 	assignment,
@@ -40,5 +41,9 @@ const {
 // ternary()
 
 // * Optional chaining
-console.log("Optional chaining operator");
-optionalChaining();
+// console.log("Optional chaining operator");
+// optionalChaining();
+
+// * Spread and rest operator
+console.log("Spread and rest operator");
+restSpread();
