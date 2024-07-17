@@ -20,32 +20,35 @@ function sumaNativaAsync(a: number, b: number): Promise<number> {
 // * Asincrona con async/await -> Detiene el flujo de ejecución
 
 try {
-	console.log(await sumaNativaAsync(1, 2));
+	const result = (await sumaNativaAsync(1, "2" as unknown as number)) + 10;
+	console.log(result);
+	console.log("just right there");
 } catch (err) {
 	console.log("ups, que ha pasado?", err.message);
 } finally {
-	console.log("apagando el programa");
+	console.log("apagando el programa!!!");
 }
 
 // * Asincrona con then()/catch() -> No detiene el flujo de ejecución
 
 sumaAsync(1, 2)
 	.then((result) => {
-		console.log(result + 10);
+		if (result === null) return;
+		console.log({ result });
 	})
 	.catch((err) => {
 		console.log("ups, que ha pasado?", err.message);
 	})
 	.finally(() => {
-		console.log("apagando el programa");
+		console.log("apagando el programa!!!");
 	});
 
 // * Asincrona con callback -> No detiene el flujo de ejecución
 
-suma(1, "2" as unknown as number, (error, result) => {
-	if (error) {
-		console.log("que paso?", error.message);
-	} else {
-		console.log({ result });
-	}
-});
+// suma(1, "2" as unknown as number, (error, result) => {
+// 	if (error) {
+// 		console.log("que paso?", error.message);
+// 	} else {
+// 		console.log({ result });
+// 	}
+// });

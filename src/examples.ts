@@ -9,16 +9,16 @@ export function callbackExample() {
 		if (err) {
 			throw err;
 		}
-		console.log("hola 1");
-		console.log(data);
+		console.log("hello 1");
+		console.log(data.slice(0, 30));
 	});
-	console.log("hola 2");
+	console.log("hello 2");
 }
 
 export function promiseThenExample() {
-	fs.readFile("/home/chrislo/.zshrca", "utf-8")
+	fs.readFile("/home/chrislo/.zshrc", "utf-8")
 		.then((data) => {
-			console.log(data);
+			console.log(data.slice(0, 30));
 		})
 		.catch((err) => console.log("ups ", err.message))
 		.finally(() => {
